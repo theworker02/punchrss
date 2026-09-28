@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/punchrss",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Punch and reshape rss text streams with deterministic transforms.",
+  "bin": {
+    "punchrss": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/punchrss.git"
+  },
+  "homepage": "https://theworker02.github.io/punchrss/",
+  "keywords": [
+    "punch",
+    "rss",
+    "text",
+    "cli",
+    "toolkit"
+  ]
+}
